@@ -85,6 +85,6 @@ Funcția `checkStringDFA()` simulează DFA-ul pe un șir de intrare dat:
         - `lambda`: listă pentru tranziții lambda 
     - Această structură flexibilă permite construirea incrementală a automatelor în timpul aplicării algoritmului lui Thompson
 
-4. **Algoritmi și Optimizări**:
+4. **Algoritmi**:
     - Pentru conversia expresiei regulate în forma postfixată, am implementat algoritmul Shunting-Yard cu adaptări pentru operatorii specifici expresiilor regulate
     - Funcția `addOp()` inserează operatorul de concatenare (`.`) implicit între operanzi adiacenți, simplificând manipularea expresiilor
